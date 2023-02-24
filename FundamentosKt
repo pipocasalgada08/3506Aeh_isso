@@ -1,4 +1,29 @@
-fun main() {
-  
-  //println("o println serve para exibir textos no console")
+fun main(){
+    //Variáveis
+//
+//var - mutável - seu valor pode ser alterado 
+//val - não mutável - não é possivel alterar seu valor 
+//
+//Tipos de variáveis
+//
+// Boolean - verdadeiro ou falso Ex: true, false 
+// String - qualquer texto de qualquer tamanho dentro de "" --> ex: "Pizza"
+// Char - APENAS UM caractere dentro de ''  --> ex: 'a'
+// Int -Números inteiros   --> ex: 5
+// Double - Números decimais (de forma arredondada) --> ex: 71.23
+// Long - Números reais (de forma longa) --> Ex: 500000000000000
+// Float - Números decimais (de forma definitiva) --> ex: 71.2314165646868
+// Estrutura de uma variável  
+// 
+// var nomeDela = "Valor" 
+// var nomeDela: String
+
+
+//Concatenação
+var messiGoldenBall = 7  
+    
+println("O Messi já ganhou " + messiGoldenBall + "vezes a Bola de Ouro. Ankara Messi")     
+println("O Messi já ganhou $messiGoldenBall vezes a Bola de ouro. Ankara Messi")
+    
 }
+
