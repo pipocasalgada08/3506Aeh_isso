@@ -24,6 +24,64 @@ var messiGoldenBall = 7
     
 println("O Messi já ganhou " + messiGoldenBall + "vezes a Bola de Ouro. Ankara Messi")     
 println("O Messi já ganhou $messiGoldenBall vezes a Bola de ouro. Ankara Messi")
+
+
+    /*r sorvete = 0
+    var strogonoff = 0 
+    while (sorvete <= 10){
+      println(sorvete)
+      sorvete++
+              
+              }
+   */
+    /*strogonoff = 0                                       
+    
+     do{
+         println (strogonoff)
+         strogonoff++ 
+     }while(strogonoff > 10) 
+     */
+     
+     //Exercício
+     //
+     //exiba a porcentagem da bateria descarregando a cada linha no console
+     //Quando a bateria chegar a 15%, deve ser exibida a porcentagem e também
+     //o aviso de bateria descarregada,
+     //Quando a bateria chegar a 0%,deve ser exibida a porcentagem e também
+     //o aviso de celular desligando usando while ou do..while 
+     
+     /*
+     var bateria = 100
+     
+     while(bateria >= 0){
+       println("${bateria}%")   
+       
+       
+     when(bateria){
+         15 -> {println("bateria em 15%, ou você coloca para carregar ou o celular vai jogar com o vasco.")}
+         0 -> {println("celular desligando,coloque na tomada. bye bye!")}
+     }
+     bateria--
+}     
+   */
+     
+     
+  // for - para...  
+  
+ /*for (churrasco in 0..10){ 
+     println(churrasco)
+ }   
+ */    
+
+  //Exercício - Exibir uma tabuada até pelo menos o décimo multiplo de um
+  //número escolhido (que não seja a do 0, do 1, e do 2), utilizando
+  //o laço for
+      
+     for (tabuada in 1..10){
+         println(tabuada*3)
+     }
+     
+         
     
 }
 
